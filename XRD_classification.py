@@ -14,7 +14,7 @@ Y_data7 = np.array(df_out[2]) - 1
 Y_data101 = np.array(df_out[3]) – 1
 #load X_data
 for i in filename :
- filepath = "D://JI//newxrd//fresh_random//" + str(i) + ".csv"
+ filepath = "C:/random//" + str(i) + ".csv"
  arr = pd.read_csv(filepath,header=None)
  arr = np.array(arr)
 docX.append(arr)
